@@ -1,0 +1,42 @@
+list = [1, 2, 3, 4, 5]
+
+for list in list:
+    print(list)
+
+list= ["balaji", "satya", "sai"]
+for lists in list:
+    print(lists)
+var1 = list[2]
+print(var1)
+print(len(list))
+i = 0;
+
+while i < len(list):
+    
+    if "satya" == list[i]:
+        print("this is not in the list{}".format(list[i]))
+    
+    i += 1;
+
+
+
+var1 = len(list)
+
+
+var1 = list
+print(var1)
+
+var1 = list
+
+list = [1, 2, 3, 4, 5]
+deep = [1, 1, 2, 3, 4, 5, 6, 7, 8]
+deep.append(200);
+deep.count(1)
+deep.extend(list)
+deep.index(1)
+deep.insert(1, 40034)
+deep.remove(1)
+deep.reverse()
+deep.sort()
+print(deep)
+
